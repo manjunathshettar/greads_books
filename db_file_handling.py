@@ -7,11 +7,11 @@ s= shelve.open('Books.txt')
 new_list = []
 finished_list = []
 goodreads_link = 'https://www.goodreads.com/'
-service_val = Service('/Users/manjushettar/PycharmProjects/pp1/chromedriver')
+service_val = Service('')
 browser = webdriver.Chrome(service=service_val)
 browser.get(goodreads_link)
-username = 'manjshettar@gmail.com'
-password ='3@uGL*5BUus@aKF'
+username = ''
+password =''
 
 def new_book(temp):
     if len(temp) == 0:
